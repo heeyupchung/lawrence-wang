@@ -16,58 +16,51 @@
       <a id="navigation" class="navbar-brand" href="./index.html">lawrence wang</a>
       <div id="navigation2" class="navbar-nav">
         <!-- wix website for personal work  -->
-        <a class="nav-item navbar-brand" href="#">recipes</a>
-        <a class="nav-item navbar-brand" href="./work.html">personal work</a>
-        <a class="nav-item navbar-brand" href="./about.html">about</a>
-        <a class="nav-item navbar-brand" href="./contact.html">contact</a>
+        <a id="recipes" class="nav-item navbar-brand" href="#">recipes</a>
+        <a id="work" class="nav-item navbar-brand" href="./work.html">personal work</a>
+        <a id="contact" class="nav-item navbar-brand" href="./contact.html">contact</a>
       </div>
     </div>
   </nav>
+  <div class="container">
+    <hr>
+  </div>
   
-  <!-- body content -->
-  <h1 class="display-4 text-center my-5">some kind of title maybe? or nah</h1>
-  <div class="container pt-4">
+  <!-- home content -->
+  <!-- <h1 class="display-4 text-center my-5">some kind of title maybe? or nah</h1> -->
+  <div class="container pt-4 mt-5">
     <div class="row">
-      <div class="col-lg order-lg-1">
-        <p id="homeblurb">my name is lawrence wang and I love to cook and play pokemon and play persona and why yes I graduated from NYU after attending troy high school home of the trojan horses and I did asb there. before that i went to i think Shellon? elementary? wait... oh middle school. I went to alvarado middle school and did marching band stuff (i think?). In this website, I'll be sharing about my deepest darkest secrets so buckle up for this fantastical ride</p>
-      </div>
-      <div class="col-lg order-lg-2">
+      <div class="col-md-6 mb-5 align-self-center">
         <div class="list-group">
-          <img src="./src/lel.jpeg">
+          <img src="./img/lel.jpeg">
         </div>
+      </div>
+      <div class="col-md-6 mb-3">
+        <p id="homeblurb"><strong>LAWRENCE WANG</strong> is an aspiring food writer based in Brooklyn, New York, and born and raised in Rowland Heights, California. He recently graduated from New York University and worked in Revenue Operations before pivoting to the food world. His passion is telling people's stories through food, which you can read about on his blog, <a href="#">Your Round Table</a>. In his spare time he develops recipes, plays music, plays games, and does the daily Wordle online (along with its many variations).</p>
       </div>
     </div>
     <hr>
+  </div>
 
   <!-- footer -->
-  <div class="py-3 d-flex justify-content-around">
-    <!-- <div>
-      <ul class="nav">
-        <li class="nav-item">
-          <a class="nav-link text-dark" href="#"><u>RECIPES</u></a>
-          <a class="nav-link text-dark" href="#"><u>PERSONAL WORK</u></a>
-          <a class="nav-link text-dark" href="#"><u>ABOUT</u></a>
-          <a class="nav-link text-dark" href="#"><u>CONTACT</u></a>
-        </li>
-      </ul>
-    </div> -->
-    <div class="my-auto">
-      <ul class="nav">
-        <li class="nav-item" id="footer">
-          <small id="copyright" class="nav-link text-dark">&copy; 2022 Lawrence Wang</small>
-          <button type="button" class="btn btn-primary btn-lg btn-floating nav-link text-dark" id="instagram" style="background-color: white; border: none;" onClick="window.open('https://www.instagram.com/lawrencelovesfood/', '_blank')">
+  <nav class="navbar navbar-expand-lg navbar-light my-4">
+    <div class="container">
+      <small id="copyright" class="text-dark">&copy; 2022 Lawrence Wang</small>
+      <div id="navigation2" class="navbar-nav">
+        <div class="social-buttons">
+          <button type="button" class="btn btn-primary btn-lg btn-floating nav-link text-dark" id="instagram" onClick="window.open('https://www.instagram.com/lawrencelovesfood/', '_blank')">
             <i class="bi bi-instagram"></i>
           </button>
-          <button type="button" class="btn btn-primary btn-lg btn-floating nav-link text-dark" id="tiktok" style="background-color: white; border: none;" onClick="window.open('https://www.tiktok.com/@lawrencelovesfood', '_blank')">
+          <button type="button" class="btn btn-primary btn-lg btn-floating nav-link text-dark" id="tiktok" onClick="window.open('https://www.tiktok.com/@lawrencelovesfood', '_blank')">
             <i class="bi bi-tiktok"></i>
           </button>
-          <button type="button" class="btn btn-primary btn-lg btn-floating nav-link text-dark" id="youtube" style="background-color: white; border: none;" onClick="window.open('https://www.youtube.com/channel/UC4PRaGuOdjrfVr6GHejiX8Q', '_blank')">
+          <button type="button" class="btn btn-primary btn-lg btn-floating nav-link text-dark" id="youtube" onClick="window.open('https://www.youtube.com/channel/UC4PRaGuOdjrfVr6GHejiX8Q', '_blank')">
             <i class="bi bi-youtube"></i>
           </button>
-        </li>
-      </ul>
+      </div>   
+      </div>
     </div>
-  </div>
+  </nav>
 
   <script src="./script.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
