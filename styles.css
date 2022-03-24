@@ -4,12 +4,12 @@
   width: 50px;
   height: 51px;
   border: 1px solid grey;
-  /* background-color: #DCDCDC; */
-  background-color: white;
+  background-color: #DCDCDC;
+  /* background-color: white; */
 }
 
 #youtube:hover, #instagram:hover, #tiktok:hover {
-  background-color: #DCDCDC;
+  background-color: #B8B8B8;
 }
 
 #navigation, #navigation2, h1 {
@@ -32,7 +32,7 @@
 
 body {
   margin: 22px;
-  /* background-color: #DCDCDC; */
+  background-color: #DCDCDC;
   font-family: "Helvetica Neue";
   font-weight: lighter;
 }
@@ -68,3 +68,6 @@ body {
   opacity: 1;
 }
 
+h5 {
+  font-weight: lighter;
+}
