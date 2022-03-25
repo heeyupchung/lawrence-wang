@@ -12,10 +12,6 @@
   background-color: rgb(210,210,210);
 }
 
-#youtube:focus, #instagram:focus, #tiktok:focus {
-  outline: none;
-}
-
 #navigation, #navigation2, h1 {
   font-style: normal;
   font-size: 20px;
