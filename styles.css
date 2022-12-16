@@ -20,7 +20,7 @@
   line-height: 1em;
 }
 
-#navigation:hover, #recipes:hover, #work:hover, #contact:hover {
+#navigation:hover, #videos:hover, #food-photography:hover, #contact:hover {
   font-style: italic;
 }
 
@@ -74,4 +74,14 @@ body {
 
 h5 {
   font-family:'Times New Roman', Times, serif;
+}
+
+.threes {
+  width: 100%;
+  height: 235px;
+}
+
+.twos {
+  width: 100%;
+  height: 352px;
 }
