@@ -87,44 +87,6 @@ h5 {
   height: 704px;
 }
 
-@media screen and (max-width: 1399px) {
-  .twos {
-    width: 100%;
-    height: 300px;
-  }
-
-  .threes {
-    width: 100%;
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 1199px) {
-  .twos {
-    width: 100%;
-    height: 250px;
-  }
-
-  .threes {
-    width: 100%;
-    height: 165px;
-  }
-}
-
-@media screen and (max-width: 991px) {
-  .twos, .threes {
-    width: 100%;
-    height: 390px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .twos, .threes {
-    width: 100%;
-    height: 235px;
-  }
-}
-
 iframe {
   border-radius: 4px;
   width: 100%;
@@ -147,6 +109,7 @@ iframe {
   height: 738px;
   border-radius: 8px;
   margin-left: 45px;
+  margin-right: 45px;
 }
 
 .tiktok-threes-long {
@@ -154,4 +117,73 @@ iframe {
   height: 756px;
   border-radius: 8px;
   margin-left: 45px;
+  margin-right: 45px;
 }
+
+@media screen and (max-width: 1399px) {
+  .twos {
+    width: 100%;
+    height: 300px;
+  }
+
+  .threes {
+    width: 100%;
+    height: 200px;
+  }
+
+  .tiktok-threes, .tiktok-threes-long {
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .twos {
+    width: 100%;
+    height: 250px;
+  }
+
+  .threes {
+    width: 100%;
+    height: 165px;
+  }
+
+  .tiktok-threes, .tiktok-threes-long {
+    margin-left: -10px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .twos, .threes {
+    width: 100%;
+    height: 390px;
+  }
+
+  .tiktok-threes, .tiktok-threes-long {
+    margin-left: 180px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .twos, .threes {
+    width: 100%;
+    height: 235px;
+  }
+
+  .tiktok-col {
+    display: flex;
+    justify-content: center;
+  }
+
+  .tiktok-col .tiktok-threes {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .tiktok-col .tiktok-threes-long {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
