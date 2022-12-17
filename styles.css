@@ -120,6 +120,10 @@ iframe {
   margin-right: 45px;
 }
 
+.youtube-tagline {
+  font-size: 22px;
+}
+
 @media screen and (max-width: 1399px) {
   .twos {
     width: 100%;
